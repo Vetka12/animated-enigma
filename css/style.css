@@ -24,7 +24,7 @@ html,body{
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	webkit-text-size-adjust: 100%;
-	background:rgba(110, 92, 211, 0.2);
+	background:rgba(43, 31, 44, 0.2);
 }
 
 input,button,textarea{font-family:inherit;}
@@ -43,12 +43,13 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	
 }
 .border{
     border: 1px solid #000; 
     border-radius: 5%;
-    width: 320px;
-    height: 160px;
+    width: auto;
+    height: auto;
     box-shadow: 0px 0px 10px #883737;
 	background: rgba(115, 97, 216, 0.2);
 
@@ -56,9 +57,9 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
 .input1{
     border: 2px solid #000;
-    min-width: 92%;
+    width: 340px;
 	height: 22px;
-    margin: 1% 0% 0% 4%; 
+    margin: 10px 10px 0px 10px; 
 }
 .ppp{
 	text-align: center;
@@ -67,17 +68,18 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 	display: inline-flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 92%;
-	margin: 1% 0 1% 0;
+	width: 340px;
+	margin: 10px 10px 0px 10px;
 	font-size: 18px;
 	font-family: Arial, Helvetica, sans-serif;
 	
 }
 .p1{
-    margin: 3% 0 1% 4%;
+    margin: 10px 10px 0px 10px;
     font-size: 18px;
 	font-family: Arial, Helvetica, sans-serif;
 }
+
 .p3{
 	font-size: 15px;
 }
@@ -87,11 +89,11 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 }
 
 .button1{
-    margin: 3% 0% 0% 4%;
+    margin: 10px 10px 10px 10px;
     border: 2px solid #000;
 	border-radius: 22%;
     font-family: Arial, Helvetica, sans-serif;
-    min-width: 92%;
+    min-width: 340px;
 	font-size: 20px;
     height: 33px;
 	background: rgb(200, 160, 226);
@@ -99,13 +101,14 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 .border1{
     border: 1px solid #000;
     border-radius: 22%;
-    width: 320px;
-    height: 50px;
+    width: auto;
+    height: auto;
     box-shadow: 0px 0px 10px #483D8B;
 	background: rgba(115, 97, 216, 0.2);
 }
 .p4{
-    margin: 18px 0% 18px 0%;
+    margin: 18px 18px 18px 18px;
+	width: 322px;
     text-align: center;
 	font-size: 16px;
 	font-family: Arial, Helvetica, sans-serif;
