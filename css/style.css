@@ -39,8 +39,12 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
 
 
-.body1{
-	display: flex;
+.all{
+	height: 100%;
+	width: 100%;
+	
+	display: inline-flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	
